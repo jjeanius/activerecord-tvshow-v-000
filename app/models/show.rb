@@ -1,7 +1,7 @@
 class Show < ActiveRecord::Base
 
   def self.highest_rating
-    maximun("rating")
+    maximun(:rating)
   end
 
   def self.most_popular_show
