@@ -1,4 +1,4 @@
-class Show < ActiveRecord::Base[5.1]
+class Show < ActiveRecord::Base
 
   def highest_rating
     show.maximun("rating")
